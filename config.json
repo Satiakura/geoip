@@ -322,9 +322,7 @@
       "args": {
         "outputDir": "./output/custom",
         "outputName": "geoip-only-cn-private-ipv4.txt",
-        // 只输出 cn、private 类别
-        "wantedList": ["cn", "private"]   
-        // 只输出 IPv4 地址
+        "wantedList": ["cn", "private"],
         "onlyIPType": "ipv4"                      
       }
     },
@@ -334,9 +332,7 @@
       "args": {
         "outputDir": "./output/custom",
         "outputName": "geoip-only-cn-private-ipv6.txt",
-        // 只输出 cn、private 类别
-        "wantedList": ["cn", "private"]
-        // 只输出 IPv6 地址
+        "wantedList": ["cn", "private"],
         "onlyIPType": "ipv6"                      
       }
     },
