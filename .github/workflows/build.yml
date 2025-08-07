@@ -110,7 +110,7 @@ jobs:
           rm -rf ./output/GeoLite2-*.csv
           rm -rf ./output/GeoLite2-*.mmdb
           rm -rf ./output/GeoLite2-*.sha256sum
-          rm -rf ./output/{clash,dat,mrs,nginx,srs,surge,text}
+          rm -rf ./output/{clash,dat,mrs,nginx,srs,surge,text,custom}
 
       - name: Upload files to GitHub release
         uses: svenstaro/upload-release-action@v2
