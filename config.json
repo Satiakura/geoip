@@ -320,8 +320,8 @@
       "type": "text",
       "action": "output",
       "args": {
-        "outputDir": "./output/custom",
-        "outputName": "geoip-only-cn-private-ipv4.txt",
+        "outputDir": "./output/custom/ipv4",
+        "outputExtension": ".txt",
         "wantedList": ["cn", "private"],
         "onlyIPType": "ipv4"                      
       }
@@ -330,8 +330,8 @@
       "type": "text",
       "action": "output",
       "args": {
-        "outputDir": "./output/custom",
-        "outputName": "geoip-only-cn-private-ipv6.txt",
+        "outputDir": "./output/custom/ipv6",
+        "outputExtension": ".txt",
         "wantedList": ["cn", "private"],
         "onlyIPType": "ipv6"                      
       }
